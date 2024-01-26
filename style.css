@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cvbody {
+    text-align: center;
+    background-image: url('CVBG.jpg');
+    background-size: cover;
+}
+
+body {
+    padding-bottom: 15px;
+}
+
+.biography {
+    padding-top: 40px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+
+img {
+    max-width: 50%;
+    max-height: auto;
+    border-radius: 50px 50px 50px 50px;
+}
+
+@media (min-width: 600px) {
+
+    .list-1,
+    .list-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .biography {
+        padding-top: 0px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .photo-biography {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        max-width: 60%;
+    }
+
+    body h2 {
+        padding-top: 40px;
+    }
+}
+
+.contact-information {
+    border: 1px solid black;
+    display: inline-block;
+    margin: auto;
+}
