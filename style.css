@@ -6,8 +6,9 @@
 
 .cvbody {
     text-align: center;
-    background-image: url('CVBG.jpg');
-    background-size: cover;
+    /*background-image: url('CVBG.jpg');
+    background-size: cover;*/
+    background-color: beige;
 }
 
 body {
