@@ -8,11 +8,12 @@
     text-align: center;
     /*background-image: url('CVBG.jpg');
     background-size: cover;*/
-    background-color: beige;
+    background-color: rgb(240, 225, 175);
 }
 
-body {
-    padding-bottom: 15px;
+body h1 {
+    border-bottom: 1px solid black;
+    margin: 70px;
 }
 
 .biography {
@@ -40,6 +41,7 @@ img {
     .list-2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 75px;
     }
 
     .biography {
@@ -59,6 +61,23 @@ img {
 
     body h2 {
         padding-top: 40px;
+    }
+
+    .left-bar,.right-bar {
+        height: 100vh;
+        width: 50px;
+        position: fixed;
+        top: 0;
+    }
+
+    .left-bar {
+        background-color:rgb(220, 200, 170);
+        left: 0;
+    }
+
+    .right-bar {
+        background-color: rgb(220, 200, 170);
+        right: 0;
     }
 }
 
